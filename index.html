@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="image"></p>
+<img id="hinhanh" src="https://cdnmedia.webthethao.vn/uploads/2021-06-09/zed-hang-hieu.jpg" alt="" style="position: absolute;top: 100px;left: 0;">
+<button onclick="sangphai()">phải</button>
+<script>
+    let hinhanh = document.getElementById('hinhanh');
+    let image = document.getElementById('image');
+
+    function sangphai() {
+        hinhanh.style.left = parseInt(hinhanh.style.left) + 30 + 'px'
+    }
+</script>
+</body>
+</html>
